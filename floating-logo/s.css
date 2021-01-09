@@ -1,0 +1,198 @@
+
+.company-icons {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+}
+
+.company-icon-container {
+  -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: floating;
+    animation-name: floating;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 10px 40px 0 rgba(23,28,33,.13), 0 31px 13px 0 rgba(23,28,33,.05);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    opacity: 1;
+    -webkit-transition: margin 1s cubic-bezier(.2,.6,.3,1),opacity 2s ease;
+    transition: margin 1s cubic-bezier(.2,.6,.3,1),opacity 2s ease;
+}
+
+.company-icon-container {
+  animation-duration: 4s;
+    height: 144px;
+    margin-left: 76px;
+    margin-top: -25px;
+    position: absolute;
+    width: 144px;
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(8px) rotate3d(0,0,1,3deg);
+     transform: translateY(8px) rotate3d(0,0,1,3deg);
+  }
+
+100% {
+    -webkit-transform: translateY(-8px) rotate3d(0,0,1,0deg);
+    transform: translateY(-8px) rotate3d(0,0,1,0deg);
+  }
+}
+
+.bmw {
+      -webkit-animation-delay: -3.4s;
+    animation-delay: -3.4s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 136px;
+    margin-left: 15px;
+    margin-top: 224px;
+    position: absolute;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+    width: 136px;
+}
+
+.intuit-big {
+  -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    background-image: url(../fonts/logo-intuit-preferred.svg);
+    background-size: 100px;
+    height: 122px;
+    margin-left: 524px;
+    margin-top: 265px;
+    position: absolute;
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+    width: 122px;
+}
+
+.company-icon-container .company-icon.image {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.company-icon-container.samsung {
+    -webkit-animation-delay: -.3s;
+    animation-delay: -.3s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 144px;
+    margin-left: 302px;
+    margin-top: 250px;
+    position: absolute;
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s;
+    width: 144px;
+}
+
+.company-icon-container.uber {
+    -webkit-animation-delay: -3.9s;
+    animation-delay: -3.9s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 136px;
+    margin-left: 300px;
+    margin-top: 440px;
+    position: absolute;
+    -webkit-transition-delay: .8s;
+    transition-delay: .8s;
+    width: 136px;
+}
+
+.company-icon-container.starz-new {
+    -webkit-animation-delay: -.9s;
+    animation-delay: -.9s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 122px;
+    margin-left: 515px;
+    margin-top: 458px;
+    position: absolute;
+    -webkit-transition-delay: .7s;
+    transition-delay: .7s;
+    width: 122px;
+}
+
+.company-icon-container.usbank {
+    -webkit-animation-delay: -2.9s;
+    animation-delay: -2.9s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 122px;
+    margin-left: 108px;
+    margin-top: 379px;
+    position: absolute;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+    width: 122px;
+}
+
+.company-icon-container.docusign {
+    -webkit-animation-delay: -2.2s;
+    animation-delay: -2.2s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 104px;
+    margin-left: 211px;
+    margin-top: 139px;
+    position: absolute;
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+    width: 104px;
+}
+
+.company-icon-container.new-york-magazine {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 144px;
+    margin-left: 76px;
+    margin-top: 20px;
+    position: absolute;
+    width: 144px;
+}
+
+
+.company-icon-container.microsoft {
+    -webkit-animation-delay: -1.8s;
+    animation-delay: -1.8s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    height: 147px;
+    margin-left: 417px;
+    margin-top: 38px;
+    position: absolute;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    width: 147px;
+}
+
+.company-icon-link:hover .company-icon-container {
+  background: #f7f7f7;
+}
